@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+
+    flex-direction: column;
+    height: 100vh;
+    
+   
+}
+form{
+    margin-top: 70px;
+    text-align: center;
+    
+}
+.form input{
+    margin-left: 500px;
+}
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 25px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    background: rgb(3, 85, 238);
+
+}
+form h1{
+    padding-top: 100px;
+
+}
+::placeholder{
+    color: black;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    background:url(../trustmed/assets/img/2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -70px;   
+    
+}
+button:hover{
+    background: rgb(3, 172, 54);
+}
