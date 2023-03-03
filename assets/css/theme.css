@@ -28,7 +28,7 @@ body {
 }
 
 a {
-  color: #07be94;
+  color: #be0707;
   text-decoration: none;
   background-color: transparent;
 }
@@ -1888,16 +1888,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 .pic{
-    height: 1000px;
+    height: 850px;
     width: 100%;
     background: #ffffff;
-    font-family: monotype corsiva;
+    
 }
 .pic1{
     height: 600px;
     width: 400px;
     background: #ffffff;
-    font-family: monotype corsiva;
+   
 }
 .pic1 img{
     position: relative;
@@ -1907,10 +1907,7 @@ a.text-dark:hover, a.text-dark:focus {
     height: 400px;
     width: 350px;
 }
-.pic1 span{
-    margin-left: 50px;
-    font-size: 30px;
-}
+
 .data{
     margin-left: 400px;
     margin-top: -490px;
@@ -1918,7 +1915,7 @@ a.text-dark:hover, a.text-dark:focus {
     width: 900px;
     background: #ffffff;
     text-align: center;
-    font-family: monotype corsiva;
+   
 }
 
 .data h1{
@@ -1932,17 +1929,19 @@ a.text-dark:hover, a.text-dark:focus {
 .text{
     height: 400px;
     width: 81.3PC;
-    background: #ffffff;
-    font-family: monotype corsiva;
-}
+    background: #ffffff; 
+  }
+  
+  
 .text p{
     margin-left: 20px;
     font-size: 1.5rem;
 }
 .text {
   text-align: center;
+  background: #ffffff;
   width: 100%;
-  height: 300px;
+  height: 200px;
   overflow: hidden;
   padding: 0;
   margin-bottom: 16px;
@@ -1967,4 +1966,83 @@ margin-left: 550px;
 }
 .bu{
 margin-left: 550px;
+}
+.text h3 {
+  /* for chrome and safari*/
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: slidein;
+
+  /*for firefox*/
+  -moz-animation-duration: 3s;
+  -moz-animation-name: slidein;
+
+    /* for opera*/
+  -o-animation-duration: 3s;
+  -o-animation-name: slidein;
+
+    /* Standard syntax*/
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
+
+@-moz-keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
+@-o-keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
+@keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+  }
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
+}
+.kd{
+  margin-left: 110px;
+  margin-top: 20px;
+}
+.kd a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparen;
+  margin-left: 10px;
+  font-size: x-large;
+}
+
+a:hover {
+  color: #03a882;
+  text-decoration: solid;
 }
